@@ -1,0 +1,8 @@
+Functiile folosite sunt:
+1. TIP: int NUME: $testFunction PARAMETRI: int @x,float @z 
+2. TIP: int NUME: $testFunction PARAMETRI: int @x,int @z 
+3. TIP: int NUME: $test PARAMETRI: int @param1,int @param2,float @f 
+4. TIP: int NUME: $functie1 PARAMETRI: int @varInt_a,int @VarInt_x 
+5. TIP: float NUME: $functie2 PARAMETRI: char @varChar,float @varFloat_f 
+6. TIP: char NUME: $functie3 PARAMETRI: string @s,float @y 
+7. TIP: char NUME: $functie4 PARAMETRI: int @varInt_a,int @VarInt_x 

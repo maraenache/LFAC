@@ -1,0 +1,27 @@
+Variabilele folosite sunt:
+1. NUME: @x; TIP: int; VALOARE: 10; E CONSTANTA: 0
+2. NUME: @x1; TIP: int; VALOARE: 30; E CONSTANTA: 0
+3. NUME: @x2; TIP: int; VALOARE: 30; E CONSTANTA: 0
+4. NUME: @y; TIP: int; VALOARE: 1506; E CONSTANTA: 0
+5. NUME: @f; TIP: float; VALOARE: 20.000000; E CONSTANTA: 0
+6. NUME: @f1; TIP: float; VALOARE: 0.000000; E CONSTANTA: 0
+7. NUME: @m; TIP: float; VALOARE: 2.300000; E CONSTANTA: 0
+8. NUME: @varBoolFaraInit; TIP: bool; VALOARE: TRUE; E CONSTANTA: 0
+9. NUME: @varStringFaraInit; TIP: string; VALOARE: "lfac"; E CONSTANTA: 0
+10. NUME: @varInt_a; TIP: int; VALOARE: 4; E CONSTANTA: 0
+11. NUME: @varInt_x; TIP: int; VALOARE: 12; E CONSTANTA: 0
+12. NUME: @varChar; TIP: char; VALOARE: u; E CONSTANTA: 0
+13. NUME: @varBool_b; TIP: bool; VALOARE: FALSE; E CONSTANTA: 0
+14. NUME: @varBool_c; TIP: bool; VALOARE: FALSE; E CONSTANTA: 0
+15. NUME: @varBool_d; TIP: bool; VALOARE: FALSE; E CONSTANTA: 0
+16. NUME: @varFloat_f; TIP: float; VALOARE: 34.599998; E CONSTANTA: 0
+17. NUME: @varConstInt_c; TIP: int; VALOARE: 2; E CONSTANTA: 1
+18. NUME: @varString1; TIP: string; VALOARE: "tema"; E CONSTANTA: 0
+19. NUME: @varString2; TIP: string; VALOARE: "lfac"; E CONSTANTA: 0
+20. NUME: @varIntFaraInit; TIP: int; VALOARE: 27; E CONSTANTA: 0
+21. NUME: @i; TIP: int; VALOARE: 1; E CONSTANTA: 0
+22. NUME: @j; TIP: int; VALOARE: 2; E CONSTANTA: 0
+23. NUME: @r; TIP: int; VALOARE: 0; E CONSTANTA: 0
+24. NUME: @n; TIP: int; VALOARE: 0; E CONSTANTA: 0
+25. NUME: @a; TIP: int; VALOARE: 0; E CONSTANTA: 0
+26. NUME: @w; TIP: int; VALOARE: 0; E CONSTANTA: 0

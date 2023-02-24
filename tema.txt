@@ -1,0 +1,91 @@
+variabile_globale
+int @x ;
+int @x1 ;
+int @x2 ;
+int @y ;
+ARRAY int @arr [ 10 ] ;
+float @f = 20.0 ;
+float @f1 ;
+float @m ;
+bool @varBoolFaraInit ;
+string @varStringFaraInit ;
+int @varInt_a = 4 ;
+int @varInt_x = DIF 10 9 ;
+char @varChar = 'x' ;
+bool @varBool_b = 2 || 3 ;
+bool @varBool_c = 2 && 0 ;
+bool @varBool_d = 5 > 7 ;
+float @varFloat_f = 2.4 ;
+const int @varConstInt_c = 2 ;
+string @varString1 = "tema" ;
+string @varString2 = "lfac" ;
+int @varIntFaraInit =  5 ;
+int @i ;
+int @j ;
+
+sectiune_functii
+int $testFunction ( int @x , float @z ) 
+{
+    @i = 7 ;
+    while ( @varBool_b != @varBoolFaraInit ) 
+    { 
+        @varFloat_f = 34.6 ; 
+    }
+
+}
+int $testFunction ( int @x , int @z ) { @j = 2 ; }
+int $test ( int @param1 , int @param2 , float @f ) { @j = SUM 4 2 ; }
+int $functie1 ( int @varInt_a , int @VarInt_x ) { @varIntFaraInit = 27 ; }
+float $functie2 ( char @varChar,float @varFloat_f  ) { @j = 2 ; }
+char $functie3 ( string @s , float @y ) { @varString1 = "tema" ; }
+char $functie4 ( int @varInt_a , int @VarInt_x ) { @j = 2 ; }
+
+user_datatypes
+
+class %C1 { private: int @r ; public: int @n ; } ;
+class %C2 { private: int @a ; public: int @w ; } ;
+
+int_main()
+&Eval ( SUM 10 2 ) ;
+%C1 #a ;
+@m = 2.3 ;
+@varBoolFaraInit = FALSE ;
+@varStringFaraInit = "lfac" ;
+@varChar = 'u' ;
+@arr [ 2 ] = 6 ;
+@arr [ 1 ] = 2 ;
+$functie1 ( @varInt_x , @varInt_x ) ;
+$functie1 ( @varInt_x , $functie1 ( @varInt_x , @varInt_x ) ; ) ;
+if ( 2 != 0 ) { @varInt_x = 2 ; }
+if ( @varInt_a != @varIntFaraInit ) { @varInt_x = 5 ; }
+while ( @varBool_b != @varBoolFaraInit ) { @varFloat_f = 34.6 ; }
+for ( @i = 0 ; ; @i < @j ; @i = SUM @i 1 ; ) { @varInt_x = SUM @varInt_a 8 ; }
+
+@x = 10 ; @x1 = 10 ; @x2 = 30 ; @y = 100 ;
+&Eval ( SUM @x1 MUL DIV 6 2 DIF 20 16 ) ;
+SUM $functie1 ( @varInt_x , @varInt_x ) ; 5 ;
+
+
+if ( SUM $test ( @x1 , @x2 , @f ) ; 5 && 2 )
+{
+    @x = 10 ; 
+    @y = 100 ;
+    for ( @i = 0 ; ; @i < @j ; @i = SUM @i 1 ; )
+     { 
+        @varInt_x = SUM @varInt_a 8 ; 
+     }
+}
+@arr [ 3 ] = SUM MUL @arr [ 2 ] 3 @arr [ 1 ] ;
+@y = SUM SUM MUL @x 100 MUL 5 100 @arr [ 2 ] ;
+@x1 = MUL SUM $test ( @x1 , $test ( @x1 , @x2 , @f ) ; , @f ) ; 5 @arr [ 2 ] ;
+&Eval ( DIF 250 MUL 2 100 ) ;
+&Eval ( MUL @y 10 ) ;
+&Eval ( DIF MUL @y 10 100 ) ;
+&Eval ( @varInt_a ) ;
+&TypeOf ( @varFloat_f ) ;
+&TypeOf ( SUM @varInt_a @varInt_a ) ;
+&TypeOf ( MUL 5 SUM 10 2 ) ;
+&TypeOf ( SUM 2.5 1.0 ) ;
+@varBool_b = 2 > 3 ;
+@varBoolFaraInit = 1 && 1 ;
+return_0
